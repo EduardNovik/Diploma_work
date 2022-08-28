@@ -1,0 +1,134 @@
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      
+      .swiper {
+        width: 100%;
+        height: 100%;
+        display: block;
+        @media screen and (min-width:1200px) {
+          display: none;
+        }
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+      
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background-color: white;
+        padding-bottom: 60px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      
+      .swiper-slide-project{
+        padding-bottom: 23px;
+      }
+
+      .swiper-slide-categories{
+        padding-bottom: 0px;
+      }
+
+      .swiper-wrapper-p40{
+        @media screen and (max-width:410px) {
+         padding-top: 40px;
+        }
+      }
+
+
+      .custom-bullet {
+        width: 5px;
+        height: 5px;
+        background: #C4C4C4;
+        margin: 0 9px;
+        display: inline-block;
+        box-sizing: border-box;
+        cursor: pointer;
+        
+        &.swiper-pagination-bullet-active{
+          background: #000;
+        }
+
+        @media screen and (min-width:768px) {
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      .swiper-pagination{
+        position: initial;
+        margin-top: 18px;
+        width: 100%;
+        @media screen and (min-width:768px) {
+          margin-top: 26px
+        }
+      }
+
+      .swiper-pagination-dnone{
+        display: none;
+      }
+
+
+
+      .swiper-button-next, .swiper-button-prev{
+        position: absolute;
+         width: 37px;
+         height: 37px; 
+         background-image: url('../img/arrow-right.svg');
+         background-repeat: no-repeat;
+         background-size: contain;
+         &:after {
+           content:"";
+         }
+       } 
+
+       .swiper-button-next{
+         right: -15px;
+       }
+ 
+       .swiper-button-prev{
+         transform: rotateZ(180deg);
+         left: -15px;
+       }
+
+
+      .swiper-slide-column{
+        display: flex;
+        flex-direction: column;
+        
+        picture:last-child{
+          @media screen and (max-width:1200px) {
+            display: none;
+          }
+        }
+      }

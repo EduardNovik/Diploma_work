@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style-home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style_swiper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header class="container-header">
+
+        <picture class="header-logo">
+            <img src="./img/logo-dsk.svg" alt="logo">
+        </picture>
+
+        <div class="header-row">
+
+            <div class="header-search">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/line-menu-mbl.svg" media="(max-width: 1200px)">
+                        <img src="./img/search-dsk.svg" alt="search icon">
+                    </picture>
+                </a>
+            </div>
+            
+
+            <div class="header-pages">
+                <a class="p-16" href="./index.html">HOME</a>
+                <a class="p-16" href="./catalog.html">SPACES</a>
+                <a class="p-16" href="./products.html">PRODUCTS & SERVICES</a>
+                <a class="p-16" href="./cart.html">SHOWROOMS</a>
+                <a class="p-16" href="./purchase.html">COMPANY</a>
+                <a class="p-16" href="#">MEDIA</a>
+                <a class="p-16" href="#">CONTACT</a>
+            </div>
+
+            <div class="header-logo-mbl">
+                <picture>
+                    <img src="./img/logo-mbl.svg" alt="logo icon">
+                </picture>
+            </div>
+
+            <div class="header-cart">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/cart-mbl.svg" media="(max-width: 768px)">
+                        <img src="./img/cart-dsk.svg" alt="cart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/hart-dsk.svg" alt="hart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/login-dsk.svg" alt="login icon">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="block1-introdaction-bg">
+            <div class="container-introdaction">
+                <div class="introdaction-details">
+                    <h2 class="h2-white">New Generation Ceramic Tile </h2>
+                    <p class="p-20-18">
+                        Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. 
+                        Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. 
+                        Pharetra sagittis sit aliquet at. Magna nam platea justo.
+                    </p>
+                    <button class="introdaction-btn btn"><a href="#">LEARN MORE</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="block2-products-bg">
+            <div class="container-products">
+                <div class="title-justify">
+
+                    <h2 class="h2-black">Products</h2>
+                    <span></span>
+                    <p class="p-20-15">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text.
+                    </p>
+
+                    <div class="block2-products-photo">
+                        <div class="products-bathroom-relative">
+                            <picture>
+                                <img class="products-bathroom " src="./img/bathroom-dsk.jpg" alt="bathroom">
+                            </picture>
+                            <div class="prod-bathroom-txt prod-title-block">
+                                <p class="p-28-w">Bathroom Tiles</p>
+                                <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                            </div>
+                        </div>
+                        <div class="products-marble-relative">
+                            <picture>
+                                <img class="products-marble" src="./img/Marble-dsk.jpg" alt="Marble">
+                            </picture>
+                            <div class="prod-marble-txt prod-title-block">
+                                <p class="p-28-w">Marble</p>
+                                <p class="p-16-w">Ante mus blandit sapien sociosqu</p>
+                            </div>
+                        </div>
+                        <div class="products-photo-both">
+                            <div class="products-outdoor-relative">
+                                <picture>
+                                    <img class="products-outdoor" src="./img/outdoor-dsk.jpg" alt="outdoor">
+                                </picture>
+                                <div class="prod-outdoor-txt prod-title-block">
+                                    <p class="p-28-w">Outdoor Flooring</p>
+                                    <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                </div>
+                            </div>
+                           <div class="products-kitchen-relative">
+                                <picture>
+                                    <img class="products-kitchen" src="./img/kitchen-dsk.jpg" alt="outdoor">
+                                </picture>
+                                <div class="prod-kitchen-txt prod-title-block">
+                                    <p class="p-28-w">Kitchen Interior</p>
+                                    <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="products-bathroom-relative">
+                                <picture>
+                                    <img class="products-bathroom " src="./img/bathroom-dsk.jpg" alt="bathroom">
+                                </picture>
+                                <div class="prod-bathroom-txt prod-title-block">
+                                    <p class="p-28-w">Bathroom Tiles</p>
+                                    <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products-bathroom-relative">
+                                <picture>
+                                    <img class="products-bathroom " src="./img/bathroom-dsk.jpg" alt="bathroom">
+                                </picture>
+                                <div class="prod-bathroom-txt prod-title-block">
+                                    <p class="p-28-w">Bathroom Tiles</p>
+                                    <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-column ">
+                            <div class="products-bathroom-relative">
+                                <picture>
+                                    <img class="products-bathroom " src="./img/bathroom-dsk.jpg" alt="bathroom">
+                                </picture>
+                                <div class="prod-bathroom-txt prod-title-block">
+                                    <p class="p-28-w">Bathroom Tiles</p>
+                                    <p class="p-16-w">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container-vision">
+                <div class="block3-vision-bg">
+                    <div class="block3-vision-details">
+                        <h2 class="h2-black">Vision</h2>
+                        <p class="p-20">
+                            Penatibus sem vitae mollis luctus mi tellus. 
+                            Maximus eu eleifend aptent dapibus metus maecenas consequat. 
+                            Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. 
+                            Pharetra sagittis sit aliquet at. Magna nam platea justo.
+                        </p>
+                        <button class="btn"><a href="#">LEARN MORE</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="block4 container-creative">
+                <div class="block4-creative">
+                    <h2 class="h2-48-30">Creative Solutions by Professional Designers</h2>
+                    <p class="p-20">
+                        Penatibus sem vitae mollis luctus mi tellus. 
+                        Maximus eu eleifend aptent dapibus metus maecenas consequat. 
+                        Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. 
+                        Pharetra sagittis sit aliquet at. Magna nam platea justo.
+                    </p>
+                    <div class="block4-creative-photo">
+                        <div class="creative-photo-btn">
+                            <picture>
+                                <img src="./img/creative-photo1.jpg" alt="creative-photo1">
+                            </picture>
+                            <button class="btn"><a href="#">READ MORE</a></button>
+                        </div>
+                        <div>
+                            <img src="./img/creative-photo2.jpg" alt="creative-photo2">
+                        </div>
+                        <div>
+                            <img src="./img/creative-photo3.jpg" alt="creative-photo3">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="block4-video">
+                    <div class="block4-video-relative">
+                        <picture>
+                            <img src="./img/creative-video.jpg" alt="creative-video">
+                        </picture>
+        
+                        <div class="block4-video-play">
+                            <a href="#">
+                                <picture>
+                                    <img src="./img/play-btn.svg" alt="play-btn">
+                                </picture>
+                            </a>
+                            <div>
+                                <p class="p-18">Watch</p>
+                                <b class="p-18">Video-tour</b>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="container-creative-swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper swiper-wrapper-p40">
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="./img/creative-mirror-mbl.jpg" alt="mirror">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <img src="./img/creative-mirror-mbl.jpg" alt="mirror">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>                               
+                                <img src="./img/creative-mirror-mbl.jpg" alt="mirror">
+                            </picture>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination swiper-pagination-dnone"></div>
+                </div>
+            </div>
+        </section>
+
+   
+        <section>
+            <div class="block5 container-projects title-justify">
+            
+                <h2 class="h2-black">Projects</h2>
+                <span></span>
+                <p class="p-20-15">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text.
+                </p>
+                
+                <div class="projects-photo">
+                    <div class="projects-photo-subblock">
+                        <picture>                               
+                            <img src="./img/projects-kingdom.jpg" alt="projects-kingdom">
+                        </picture>
+                        <b class="p-26">Kingdom Tower</b>
+                        <p class="p-16-w">Marble Flooring</p>
+                    </div>
+                    <div class="projects-photo-subblock">
+                        <picture>                               
+                            <img src="./img/projects-dubai.jpg" alt="projects-dubai">
+                        </picture>
+                        <b class="p-26">Dubai mall</b>
+                        <p class="p-16-w">Wood Flooring</p>
+                    </div>
+                    <div class="projects-photo-subblock">
+                        <picture>                               
+                            <img src="./img/projects-king.jpg" alt="projects-king">
+                        </picture>
+                        <b class="p-26">King Road Offices</b>
+                        <p class="p-16-w">Outdoor Flooring</p>
+                    </div>
+                    <div class="projects-photo-subblock">
+                        <picture>                               
+                            <img src="./img/projects-beach.jpg" alt="projects-beach">
+                        </picture>
+                        <b class="p-26">Beach Tower Alupang</b>
+                        <p class="p-16-w">Wood Flooring</p>
+                    </div>
+                </div>
+                <button class="btn"><a href="#">VIEW ALL</a></button>  
+            </div>
+
+            <div class="container-creative-swiper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-project">
+                            <picture>
+                                <img src="./img/projects-dubai-mbl.jpg" alt="projects-dubai">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide swiper-slide-project">
+                            <picture>
+                                <img src="./img/projects-dubai-mbl.jpg" alt="projects-dubai">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide swiper-slide-project">
+                            <picture>                               
+                                <img src="./img/projects-dubai-mbl.jpg" alt="projects-dubai">
+                            </picture>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination swiper-pagination-dnone"></div>
+                </div>
+                
+                <div class="projects-swiper-details">
+                    <b class="p-26">Dubai mall</b>
+                    <p class="p-16-w">Wood Flooring</p>
+                    <button class="btn"><a href="#">VIEW ALL</a></button>  
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="block6 container-collections">
+            
+                <h2 class="h2-black">Tile Collections</h2>
+                <span></span>
+                <p class="p-20-15">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text.
+                </p>
+                
+                <div class="collections-photo">
+                    <div class="collections-photo-subblock subblock-grid1">
+                        <picture>                               
+                            <img src="./img/collections-1.jpg" alt="projects-kingdom">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Zurich Vision 60×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">237.99 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid2">
+                        <picture>                               
+                            <img src="./img/collections-2.jpg" alt="projects-dubai">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Zurich Pearl 60×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid3">
+                        <picture>                               
+                            <img src="./img/collections-3.jpg" alt="projects-king">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Zurich Grey 60×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid4">
+                        <picture>                               
+                            <img src="./img/collections-4.jpg" alt="projects-beach">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Zurich Dark 60×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid5">
+                        <picture>                               
+                            <img src="./img/collections-5.jpg" alt="projects-beach">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Windsor White Oak</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid6">
+                        <picture>                               
+                            <img src="./img/collections-6.jpg" alt="projects-beach">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Sicily Décor 30×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid7">
+                        <picture>                               
+                            <img src="./img/collections-7.jpg" alt="projects-beach">
+                        </picture>
+                        <div class="subblock-description">
+                            <p class="p-26">Sardinia White</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                    </div>
+                    <div class="collections-photo-subblock subblock-grid8">
+                        <picture>                               
+                            <img src="./img/collections-8.jpg" alt="projects-beach">
+                        </picture>
+
+                        <div class="subblock-description">
+                            <p class="p-26">Sicily Grey 30×60</p>
+                            <i class="p-12-g"><s>449.99 SAR</s></i>
+                            <i class="p-18">312.49 SAR</i>
+                        </div>
+                        
+                    </div>
+                </div>
+                <button class="btn"><a href="#">MORE PRODUCTS</a></button>  
+            </div>
+        </section>
+
+        <section>
+            <div class="container-showrooms">
+                <div class="block7-showrooms-bg">
+                    <div class="block7-showrooms-details">
+                        <h2 class="h2-black">Our Showrooms</h2>
+                        <p class="p-20">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text.
+                        </p>
+                        <button class="btn"><a href="#">LEARN MORE</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="container-footer">
+        <div class="footer-info">
+            <div>
+                <picture class="footer-logo">
+                    <source srcset="./img/logo-footer-mbl.svg" media="(max-width: 1200px)">
+                    <img src="./img/logo-footer-dsk.svg" alt="logo">
+                </picture>
+            </div>
+             
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Stand Stone</a></li>
+                    <li><a href="">Stone</a></li>
+                    <li><a href="">Cement</a></li>
+                    <li><a href="">Soft Stone</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Measurement Service</a></li>
+                    <li><a href="">Product Advice</a></li>
+                    <li><a href="">Interior Design</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact information</h2>
+                <p>
+                    3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah, Riyadh 12474, 
+                    Saudi Arabia
+                </p>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="products-list">
+
+                    <label for="products-list">
+                        <p>Products</p> 
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Stand Stone</div>
+                        <div>Stone</div>
+                        <div>Cement</div>
+                        <div>Soft Stone</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="services-list">
+
+                    <label for="services-list">
+                        <p>Services</p> 
+                        <picture>
+                            <img src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Measurement Service</div>
+                        <div>Product Advice</div>
+                        <div>Interior</div>
+                        <div>Design</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="contact-list">
+
+                    <label for="contact-list">
+                        <p>Contact information</p> 
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>3181 Aziz Branch Rd,</div>
+                        <div>An Nuzhah,</div>
+                        <div>Riyadh 12474,</div>
+                        <div>Saudi Arabi</div>
+                    </div>
+
+                </div>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="social-network">
+            <a href="#">
+                <picture>
+                    <source srcset="./img/fb-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/fb-icon-dsk.svg" alt="facebook">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/tw-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/tw-icon-dsk.svg" alt="twitter">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/inst-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/inst-icon-dsk.svg" alt="instagram">
+                </picture>
+            </a>
+        </div>
+        <div class="copyright">
+            <p class="p-9-w">Copyright © 2022 | All Rights Reserved.</p>
+            <p class="p-9-w">Created with love by <b>thecreation.design</b></p>
+        </div>
+    </footer>
+
+</body>
+</html>

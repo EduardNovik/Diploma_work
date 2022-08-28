@@ -1,0 +1,1091 @@
+@import url("http://fonts.cdnfonts.com/css/proxima-nova-2");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Proxima Nova";
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: bold;
+  src: url("../fonts/Proxima Nova Alt Bold.otf"), url("../fonts/Proxima Nova Alt Light.otf"), url("../fonts/Proxima Nova Alt Thin.otf"), url("../fonts/ProximaNova-Regular.otf"), url("../fonts/Proxima Nova Black.otf"), url("../fonts/Proxima Nova Bold.otf") format("opentype");
+}
+.p-9-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 9px;
+  color: #CACACA;
+}
+
+.p-12-g {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #CACACA;
+}
+
+.p-15-b {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  color: #0A0A0A;
+}
+
+.p-16 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0A0A0A;
+}
+@media screen and (min-width: 1200px) {
+  .p-16 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A0A0A;
+  }
+}
+
+.p-16-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.p-18 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #111010;
+}
+
+.p-18-28 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #111010;
+}
+
+.p-20 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #616161;
+}
+
+.p-25 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #111010;
+}
+
+.p-26 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #111010;
+}
+
+.p-28-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.p-30 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #151515;
+}
+
+.p-20-15 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #616161;
+}
+@media screen and (min-width: 768px) {
+  .p-20-15 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #616161;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-20-15 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #616161;
+  }
+}
+
+.p-20-18 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ECECEC;
+}
+@media screen and (min-width: 768px) {
+  .p-20-18 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ECECEC;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-20-18 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ECECEC;
+  }
+}
+
+.h2-white {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .h2-white {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-white {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+}
+
+.h2-black {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-black {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-black {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+
+.h2-40-24 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-40-24 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-40-24 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111010;
+  }
+}
+
+.h2-48-30 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-48-30 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-48-30 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+
+.btn {
+  background: #111010;
+  border: none;
+  width: 180px;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .btn {
+    width: 180px;
+    height: 52px;
+  }
+}
+.btn:hover {
+  filter: invert(100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px #ffffff;
+}
+.btn a {
+  text-decoration: none;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 1200px) {
+  .btn a {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+.container-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 17px;
+}
+@media screen and (min-width: 1200px) {
+  .container-header {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-header {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 45px;
+  }
+}
+.container-tabs {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .container-tabs {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-tabs {
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-buy_item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .container-buy_item {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 78px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-buy_item {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 78px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-description {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .container-description {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-description {
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-grid {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+@media screen and (min-width: 1200px) {
+  .container-grid {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 0px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-grid {
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .container-footer {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-footer {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 68px;
+    padding-bottom: 27px;
+  }
+}
+
+.header-logo {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.header-logo-mbl {
+  display: block;
+}
+@media screen and (min-width: 1200px) {
+  .header-logo-mbl {
+    display: none;
+  }
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: left;
+}
+
+.header-pages {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header-pages {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+}
+.header-pages a {
+  text-decoration: none;
+  font-family: "Proxima Nova", sans-serif;
+}
+.header-pages a:first-child {
+  color: grey;
+}
+.header-pages a:hover {
+  color: rgb(178, 177, 177);
+}
+
+.header-cart {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (max-width: 1200px) {
+  .header-cart a:nth-child(2), .header-cart a:nth-child(3) {
+    display: none;
+  }
+}
+
+.block1-tabs-bg {
+  background-color: #0A0A0A;
+}
+
+.block1-tabs {
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  padding-top: 41px;
+  padding-bottom: 32px;
+}
+.block1-tabs a:first-child::after, .block1-tabs a:nth-child(2)::after {
+  content: url("../img/arrow-p3.svg");
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.block1-tabs a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .block1-tabs a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+}
+.block1-tabs a:last-child {
+  border-bottom: 3px solid #C4C4C4;
+}
+
+.block2-buy_items {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .block2-buy_items {
+    flex-direction: row;
+    margin-bottom: 140px;
+  }
+}
+
+.buy_item-pictures {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-pictures {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+.buy_item-pictures img {
+  max-width: 665px;
+  width: 100%;
+}
+
+.buy_item-subpictures {
+  display: flex;
+  gap: 25px;
+  margin-top: 27px;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-subpictures {
+    justify-content: left;
+  }
+}
+
+.buy_item-details {
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-details {
+    text-align: left;
+  }
+}
+.buy_item-details h1 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0;
+}
+.buy_item-details h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 21px;
+  margin-top: 0px;
+}
+.buy_item-details p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 610px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-details p {
+    text-align: left;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .buy_item-details p {
+    text-align: left;
+    margin-bottom: 67px;
+  }
+}
+.buy_item-details ul {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-details ul {
+    display: block;
+    padding-left: 24px;
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+}
+.buy_item-details ul li {
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.buy_item-details ul li::marker {
+  color: #adadad;
+  font-size: 24px;
+}
+
+.buy_item-btns {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-btns {
+    align-items: initial;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .buy_item-btns {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-btns p {
+    text-align: center;
+  }
+}
+.buy_item-btns button {
+  width: 220px;
+  height: 65px;
+}
+.buy_item-btns button a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.buy_item-btns-add {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 22px;
+  border: 1px solid black;
+  align-items: center;
+  max-height: 65px;
+  max-width: 220px;
+  text-align: center;
+  gap: 35px;
+}
+@media screen and (min-width: 1600px) {
+  .buy_item-btns-add {
+    gap: 44px;
+  }
+}
+.buy_item-btns-add p {
+  margin: 0;
+}
+.buy_item-btns-add button {
+  color: #b0b0b0;
+  background-color: transparent;
+  border: none;
+}
+.buy_item-btns-add button:hover {
+  cursor: pointer;
+}
+
+.buy_item-like {
+  border: 1px solid black;
+  width: 62px;
+  height: 65px;
+}
+.buy_item-like img:hover {
+  cursor: pointer;
+}
+.buy_item-like input {
+  display: none;
+}
+.buy_item-like label img {
+  margin-left: 0;
+  margin-top: 27%;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-like label img {
+    margin-left: 27%;
+    margin-top: 27%;
+  }
+}
+.buy_item-like input:checked ~ label {
+  content: url("../img/heart-checked.jpg");
+  margin-left: 0;
+  margin-top: 27%;
+}
+@media screen and (min-width: 1200px) {
+  .buy_item-like input:checked ~ label {
+    margin-left: 27%;
+    margin-top: 27%;
+  }
+}
+
+.block3-description {
+  text-align: center;
+}
+.block3-description p:last-child {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  max-width: 810px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .block3-description p:last-child {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 85px;
+  }
+}
+
+.description-categories {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .description-categories {
+    margin-bottom: 40px;
+  }
+}
+.description-categories p {
+  margin: 0;
+  font-family: "Poppins";
+}
+.description-categories b {
+  font-family: "Poppins";
+  color: #000000;
+  font-weight: 600;
+}
+
+.block4-related_prod, .block5-recently_viewed {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .block4-related_prod, .block5-recently_viewed {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .block4-related_prod h2, .block5-recently_viewed h2 {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
+  .block4-related_prod h2, .block5-recently_viewed h2 {
+    margin-bottom: 37px;
+  }
+}
+
+.block4-related_prod {
+  margin-bottom: 50px;
+}
+
+.block4-related_prod-bg, .block5-recently_viewed-bg {
+  background-color: #FDFDFD;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 23px;
+  padding-bottom: 35px;
+}
+
+.grid-collections-photo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.subblock-grid1 {
+  grid-area: 1/1/2/2;
+}
+
+.subblock-grid2 {
+  grid-area: 1/2/2/3;
+}
+
+.subblock-grid3 {
+  grid-area: 1/3/2/4;
+}
+
+.subblock-grid4 {
+  grid-area: 1/4/2/5;
+}
+
+.subblock-description {
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 12px 1px #e9e8e8;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.subblock-description p {
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+.subblock-description i:nth-child(2) {
+  margin-right: 10px;
+}
+.subblock-description i:last-child {
+  color: gray;
+}
+
+.collections-photo-subblock img {
+  width: 100%;
+}
+
+footer {
+  background-color: #111010;
+  border-radius: 0 0 45px 45px;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 108px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    border-radius: 0 0 24px 24px;
+    margin-top: 108px;
+  }
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.footer-info-list {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer-info-list {
+    display: block;
+  }
+}
+.footer-info-list ul {
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+.footer-info-list ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 170%;
+  font-family: "Poppins", sans-serif;
+}
+.footer-info-list ul li a:hover {
+  color: grey;
+}
+.footer-info-list ul li:first-child {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-contact {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer-contact {
+    display: block;
+    color: white;
+    width: 280px;
+  }
+}
+.footer-contact h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.footer-contact p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  margin: 0;
+}
+
+.social-network {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 19px;
+}
+@media screen and (min-width: 768px) {
+  .social-network {
+    justify-content: left;
+    margin-bottom: 50px;
+  }
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .copyright {
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+  }
+}
+.copyright p {
+  color: white;
+  margin: 0;
+}
+
+.footer-dropdown {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .footer-dropdown {
+    display: none;
+  }
+}
+.footer-dropdown span {
+  display: block;
+  width: 100%;
+  position: initial;
+  margin: 0 auto;
+  margin-bottom: 34px;
+  border-bottom: 1px solid white;
+}
+
+.dropdown-category {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-category label {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.dropdown-category label p {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+.dropdown-category input {
+  display: none;
+}
+
+.dropdown-category input:checked ~ .dropdown-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #4f4f4f;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  position: initial;
+}
+.dropdown-category input:checked ~ label picture {
+  transform: rotateZ(-180deg);
+  transition: all 0.3s;
+}
+
+.dropdown-list {
+  display: none;
+  top: 100%;
+}/*# sourceMappingURL=style-products.css.map */

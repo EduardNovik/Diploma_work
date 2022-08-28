@@ -1,0 +1,119 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media screen and (min-width: 1200px) {
+  .swiper {
+    display: none;
+  }
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 60px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-slide-project {
+  padding-bottom: 23px;
+}
+
+.swiper-slide-categories {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 410px) {
+  .swiper-wrapper-p40 {
+    padding-top: 40px;
+  }
+}
+
+.custom-bullet {
+  width: 5px;
+  height: 5px;
+  background: #C4C4C4;
+  margin: 0 9px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.custom-bullet.swiper-pagination-bullet-active {
+  background: #000;
+}
+@media screen and (min-width: 768px) {
+  .custom-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.swiper-pagination {
+  position: initial;
+  margin-top: 18px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .swiper-pagination {
+    margin-top: 26px;
+  }
+}
+
+.swiper-pagination-dnone {
+  display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background-image: url("../img/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  content: "";
+}
+
+.swiper-button-next {
+  right: -15px;
+}
+
+.swiper-button-prev {
+  transform: rotateZ(180deg);
+  left: -15px;
+}
+
+.swiper-slide-column {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  .swiper-slide-column picture:last-child {
+    display: none;
+  }
+}/*# sourceMappingURL=style_swiper.css.map */

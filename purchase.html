@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style-purchase.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style_swiper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+
+<body>
+    <header class="container-header">
+
+        <picture class="header-logo">
+            <img src="./img/logo-dsk.svg" alt="logo">
+        </picture>
+
+        <div class="header-row">
+
+            <div class="header-search">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/line-menu-mbl.svg" media="(max-width: 1200px)">
+                        <img src="./img/search-dsk.svg" alt="search icon">
+                    </picture>
+                </a>
+            </div>
+
+
+            <div class="header-pages">
+                <a class="p-16" href="./index.html">HOME</a>
+                <a class="p-16" href="./catalog.html">SPACES</a>
+                <a class="p-16" href="./products.html">PRODUCTS & SERVICES</a>
+                <a class="p-16" href="./cart.html">SHOWROOMS</a>
+                <a class="p-16" href="./purchase.html">COMPANY</a>
+                <a class="p-16" href="#">MEDIA</a>
+                <a class="p-16" href="#">CONTACT</a>
+            </div>
+
+            <div class="header-logo-mbl">
+                <picture>
+                    <img src="./img/logo-mbl.svg" alt="logo icon">
+                </picture>
+            </div>
+
+            <div class="header-cart">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/cart-mbl.svg" media="(max-width: 768px)">
+                        <img src="./img/cart-dsk.svg" alt="cart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/hart-dsk.svg" alt="hart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/login-dsk.svg" alt="login icon">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="block1-tabs-bg">
+            <div class="container-tabs ">
+                <div class="block1-tabs">
+                    <a href="#">Check Out</a>
+                    <a href="#">Continue Shopping</a>
+                </div>
+            </div>
+        </nav>
+        
+
+        <section>
+            <div class="container-purchase purchase-flex">
+
+                <div class="block2-shipping block2-purchase-bg">
+
+                    <div class="block2-shipping-address">
+                        <div>
+                            <button class="btn">Mrs.</button>
+                            <button class="btn">Mr.</button>
+                        </div>
+
+                        <form action="#">
+                            <input type="text" placeholder="First name*">
+                        </form>
+                        <form action="#">
+                            <input type="text" placeholder="Last name*">
+                        </form>
+                        <form action="#"> 
+                            <input type="email" placeholder="E-Mail">
+                        </form>
+                        
+                        
+        
+                        <form class="shipping-street">
+                            <input type="" placeholder="Street*">
+                            <input type="text" placeholder="Houses*">
+                        </form>
+        
+                        <form class="shipping-postcode">
+                            <input type="text" placeholder="PostCode*">
+                            <input type="text" placeholder="Location*">
+                        </form>
+    
+                    
+                        <select class="js-example-responsive">
+                            <option value="Select Country">Select Country</option>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="Poland">Poland</option>
+                            <option value="China">China</option>
+                            <option value="Canada">Canada</option>
+                        </select>
+
+                        <form action="#">
+                            <input type="tel" placeholder="Phone Number">
+                        </form>
+                    </div>
+                    
+    
+                    <p class="block2-notification-req">*Required field</p>
+
+
+                    <div class="checkbox-style">
+                        <input type="checkbox" id="account">
+                        <label for="account">
+                            <p>Create a customer account now and benefit from many advantages.</p>
+                        </label>
+                    </div>
+                    
+    
+                    <p class="block2-notification-pass">The password will be sent to you by email</p>
+
+
+                    <div class="checkbox-style">
+                        <input type="checkbox" id="shipping">
+                        <label for="shipping">
+                            <p>Shipping Address is Different</p>
+                        </label>
+                    </div>
+
+
+                    <div class="block2-shipping-address">
+
+                        <form action="#" class="shipping-name">
+                            <input type="text" placeholder="First name*">
+                            <input type="text" placeholder="Last name*">
+                        </form>
+                        
+        
+                        <form action="#" class="shipping-street">
+                            <input type="text" placeholder="Street*">
+                            <input type="text" placeholder="Houses*">
+                        </form>
+        
+                        <form action="#" class="shipping-postcode">
+                            <input type="text" placeholder="PostCode*">
+                            <input type="text" placeholder="Location*">
+                        </form>
+
+
+                        <form action="#">
+                            <select class="js-example-responsive">
+                                <option value="Select Country">Select Country</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="Poland">Poland</option>
+                                <option value="China">China</option>
+                                <option value="Canada">Canada</option>
+                            </select>
+                        </form>
+                    </div>
+    
+                </div>
+
+
+    
+                <div class="block3-payment">
+                    <div class="payment-style payment-style-paypal">
+                        <div>
+                            <a href=""><img src="./img/paypal-btn.jpg" alt="paypal-btn"></a>
+                            <p>Pay Pal</p>
+                        </div>
+
+                        <form action="#">
+                            <input type="checkbox">
+                        </form>
+                    </div>
+
+                    <div class="payment-style payment-style-paypal">
+                        <div>
+                            <a href=""><img src="./img/paypal-btn.jpg" alt="paypal-btn"></a>
+                            <p>Pay Pal Plus</p>
+                        </div>
+
+                        <form action="#">
+                            <input type="checkbox">
+                        </form>
+                    </div>
+
+
+                    <div class="payment-card purchase-bg ">
+
+                        <div class="payment-style-bank payment-style">
+                            <div>
+                                <a href=""><img src="./img/bank-btn.png" alt="bank-btn"></a>
+                                <p>Investment Bank</p>
+                            </div>
+
+                            <form action="#">
+                                <input type="checkbox">
+                            </form>
+                        </div>
+
+                        <form action="#">
+                            <input type="text" placeholder="Credit card number*">
+                        </form>
+                        
+    
+                        <form class="payment-card-expiry" action="#">
+                            <input type="text" placeholder="Expiry Date*">
+                            <input type="password" placeholder="CVC / CVV*">
+                        </form>
+
+                        <form action="#">
+                            <input type="text" placeholder="Name of Cardholder*">
+                        </form>
+            
+                    </div>
+                </div>
+
+    
+                <div class="block4-summarize ">
+
+                    <div class="grid-cart purchase-bg">
+                        <div class="cart-subblock1-header"> 
+                            <p>Article</p>
+                        </div>
+                        <div class="cart-subblock2-header"> 
+                            <p>Total SAR</p>
+                        </div>
+                        <div class="cart-subblock3-item">
+                            <picture>
+                                <img src="./img/cart-product.jpg" alt="product in cart">
+                            </picture>
+                            <div>
+                                <p>1x</p>
+                                <p>Lorem</p>
+                                <p>Lorem Ipsum</p>
+                                <p>Ipsum</p>
+                            </div>
+                        </div>
+                        <div class="cart-subblock4-price"> 
+                            <p>690.00</p>
+                        </div>
+                        <div class="cart-subblock5-item"> 
+                            <picture>
+                                <img src="./img/cart-product.jpg" alt="product in cart">
+                            </picture>
+                            <div>
+                                <p>1x</p>
+                                <p>Lorem</p>
+                                <p>Lorem Ipsum</p>
+                                <p>Ipsum</p>
+                            </div>
+                        </div>
+                        <div class="cart-subblock6-price"> 
+                            <p>690.00</p>
+                        </div>
+                        <div class="cart-subblock7-item"> 
+                            <picture>
+                                <img src="./img/cart-product.jpg" alt="product in cart">
+                            </picture>
+                            <div>
+                                <p>1x</p>
+                                <p>Lorem</p>
+                                <p>Lorem Ipsum</p>
+                                <p>Ipsum</p>
+                            </div>
+                        </div>
+                        <div class="cart-subblock8-price"> 
+                            <p>690.00</p>
+                        </div>
+                        <div class="cart-subblock9-voucher"> 
+                            <p>Do you have a voucher?</p>
+                            <p>(Optional)</p>
+                        </div>
+                        <div class="cart-subblock10-btn">
+                            <form action="#">
+                                <input type="text" placeholder="Enter the code">
+                            </form> 
+                        </div>
+                        <div class="cart-subblock11-btn"> 
+                            <button class="btn"><a href="#">Redeem</a></button>
+                        </div>
+                        <div class="cart-subblock12-subtotal"> 
+                            <p>Subtotal</p>
+                        </div>
+                        <div class="cart-subblock13-number"> 
+                            <p>2.070.00</p>
+                        </div>
+                        <div class="cart-subblock14-shippment"> 
+                            <p>shippment</p>
+                        </div>
+                        <div class="cart-subblock15-value"> 
+                            <p>103.50</p>
+                        </div>
+                        <div class="cart-subblock16-delivery"> 
+                            <p>Delivery time 2 - 4 working days</p>
+                        </div>
+                    </div>
+
+                    <div class="block4-checkout purchase-bg">
+
+                        <button class="btn"><a href="">Checkout</a></button>
+
+                        <div class="checkout-checkbox">
+                            <input type="checkbox" id="confirm">
+                            <label for="confirm">
+                                <p>T&C is simply dummy text of the printing and typesetting industry</p>
+                            </label>
+                        </div>
+
+                        <div class="block4-checkout-total">
+                            <div>
+                                <b>Total</b>
+                                <p>(VAT)</p>
+                            </div>
+                            <div class="checkout-total-price">
+                                <b>143,910.00</b>
+                                <p>7,195.00</p>
+                            </div>
+                        </div>
+
+                    </div>
+    
+                </div>
+            </div>
+            
+        
+
+            
+        </section>
+    </main>
+
+    <footer class="container-footer">
+        <div class="footer-info">
+            <div>
+                <picture class="footer-logo">
+                    <source srcset="./img/logo-footer-mbl.svg" media="(max-width: 1200px)">
+                    <img src="./img/logo-footer-dsk.svg" alt="logo">
+                </picture>
+            </div>
+
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Stand Stone</a></li>
+                    <li><a href="">Stone</a></li>
+                    <li><a href="">Cement</a></li>
+                    <li><a href="">Soft Stone</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Measurement Service</a></li>
+                    <li><a href="">Product Advice</a></li>
+                    <li><a href="">Interior Design</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact information</h2>
+                <p>
+                    3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah, Riyadh 12474,
+                    Saudi Arabia
+                </p>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="products-list">
+
+                    <label for="products-list">
+                        <p>Products</p>
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Stand Stone</div>
+                        <div>Stone</div>
+                        <div>Cement</div>
+                        <div>Soft Stone</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="services-list">
+
+                    <label for="services-list">
+                        <p>Services</p>
+                        <picture>
+                            <img src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Measurement Service</div>
+                        <div>Product Advice</div>
+                        <div>Interior</div>
+                        <div>Design</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="contact-list">
+
+                    <label for="contact-list">
+                        <p>Contact information</p>
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>3181 Aziz Branch Rd,</div>
+                        <div>An Nuzhah,</div>
+                        <div>Riyadh 12474,</div>
+                        <div>Saudi Arabi</div>
+                    </div>
+
+                </div>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="social-network">
+            <a href="#">
+                <picture>
+                    <source srcset="./img/fb-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/fb-icon-dsk.svg" alt="facebook">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/tw-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/tw-icon-dsk.svg" alt="twitter">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/inst-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/inst-icon-dsk.svg" alt="instagram">
+                </picture>
+            </a>
+        </div>
+        <div class="copyright">
+            <p class="p-9-w">Copyright © 2022 | All Rights Reserved.</p>
+            <p class="p-9-w">Created with love by <b>thecreation.design</b></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

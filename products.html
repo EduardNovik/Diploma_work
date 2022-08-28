@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style-products.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style_swiper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header class="container-header">
+
+        <picture class="header-logo">
+            <img src="./img/logo-dsk.svg" alt="logo">
+        </picture>
+
+        <div class="header-row">
+
+            <div class="header-search">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/line-menu-mbl.svg" media="(max-width: 1200px)">
+                        <img src="./img/search-dsk.svg" alt="search icon">
+                    </picture>
+                </a>
+            </div>
+            
+
+            <div class="header-pages">
+                <a class="p-16" href="./index.html">HOME</a>
+                <a class="p-16" href="./catalog.html">SPACES</a>
+                <a class="p-16" href="./products.html">PRODUCTS & SERVICES</a>
+                <a class="p-16" href="./cart.html">SHOWROOMS</a>
+                <a class="p-16" href="./purchase.html">COMPANY</a>
+                <a class="p-16" href="#">MEDIA</a>
+                <a class="p-16" href="#">CONTACT</a>
+            </div>
+
+            <div class="header-logo-mbl">
+                <picture>
+                    <img src="./img/logo-mbl.svg" alt="logo icon">
+                </picture>
+            </div>
+
+            <div class="header-cart">
+                <a href="#">
+                    <picture>
+                        <source srcset="./img/cart-mbl.svg" media="(max-width: 768px)">
+                        <img src="./img/cart-dsk.svg" alt="cart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/hart-dsk.svg" alt="hart icon">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./img/login-dsk.svg" alt="login icon">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <nav class="block1-tabs-bg">
+            <div class="container-tabs ">
+                <div class="block1-tabs">
+                    <a href="">Home</a>
+                    <a href="">Table</a>
+                    <a href="">Product Name</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <section>
+
+            <div class="block2-buy_items container-buy_item">
+
+                    <div class="buy_item-pictures">
+                        <picture>
+                            <img src="./img/item-photo.jpg" alt="item-photo">
+                        </picture>
+
+                        <div class="buy_item-subpictures">
+                            <picture>
+                                <img src="./img/item-photo2.jpg" alt="item-photo2">
+                            </picture>
+                            <picture>
+                                <img src="./img/item-photo3.jpg" alt="item-photo3">
+                            </picture>
+                            <picture>
+                                <img src="./img/item-photo4.jpg" alt="item-photo3">
+                            </picture>
+                        </div>
+                    </div>
+                    
+    
+                    <div class="buy_item-details">
+
+                        <h1>Product Name</h1>
+                        <h2>199,50 SAR</h2>
+                        <p>Product Short Description senectus et netus et malesuada fames ac turpis egestas. 
+                            Vesitbulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+                            Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                            Mauris placerat eleifend 
+                        </p>
+    
+                        <div class="buy_item-btns">
+
+                            <div class="buy_item-btns-add">
+                                <button>—</button>
+                                <p>1</p>
+                                <button><img src="./img/plus.png" alt="plus"></button>
+                            </div>
+    
+                            <button class="btn"><a href="#">Add to cart</a></button>
+    
+                            <div class="buy_item-like">
+                                <input type="checkbox" id="hart">
+                                <label for="hart">
+                                    <picture>
+                                        <img src="./img/heart-buy.svg" alt="heart">
+                                    </picture>
+                                </label>
+                            </div>
+
+                        </div>
+    
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet,</li>
+                            <li>Lorem ipsum dolor sit amet,</li>
+                            <li>Lorem ipsum dolor sit amet,</li>
+                        </ul>
+    
+                    </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="block3-description container-description">
+
+            <div class="description-categories">
+                <p class="p-20">Description</p>
+                <b class="p-20">Details</b>
+                <b class="p-20">Reviews(0)</b>
+            </div>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce ornare euismod arcu, ac laoreet metus pulvinar feugiat.
+                 Praesent in feugiat ante, a dictum nunc. Pellentesque convallis 
+                 tortor quis purus finibus aliquet. In hac habitasse platea dictumst. 
+                 Proin vestibulum ante ac faucibus tristique. Integer quis efficitur dolor, 
+                 at dignissim dolor.
+            </p>
+
+        </section>
+        
+
+        <section>
+            <div class="block4-related_prod container-grid">
+                <div class="block4-related_prod-bg">
+                    <h2 class="p-30">Related Products</h2>
+                    <div class="grid-collections-photo">
+                        <div class="collections-photo-subblock subblock-grid1">
+                            <picture>                               
+                                <img src="./img/collections-5.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Windsor White Oak</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid2">
+                            <picture>                               
+                                <img src="./img/collections-6.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Sicily Décor 30×60</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid3">
+                            <picture>                               
+                                <img src="./img/collections-7.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Sardinia White</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid4">
+                            <picture>                               
+                                <img src="./img/collections-8.jpg" alt="projects-beach">
+                            </picture>
+    
+                            <div class="subblock-description">
+                                <p class="p-26">Sicily Grey 30×60</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="block5-recently_viewed container-grid">
+                <div class="block5-recently_viewed-bg">
+                    <h2 class="p-30">Recently Viewed Products</h2>
+                    <div class="grid-collections-photo">
+                        <div class="collections-photo-subblock subblock-grid1">
+                            <picture>                               
+                                <img src="./img/collections-5.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Windsor White Oak</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid2">
+                            <picture>                               
+                                <img src="./img/collections-6.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Sicily Décor 30×60</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid3">
+                            <picture>                               
+                                <img src="./img/collections-7.jpg" alt="projects-beach">
+                            </picture>
+                            <div class="subblock-description">
+                                <p class="p-26">Sardinia White</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                        <div class="collections-photo-subblock subblock-grid4">
+                            <picture>                               
+                                <img src="./img/collections-8.jpg" alt="projects-beach">
+                            </picture>
+    
+                            <div class="subblock-description">
+                                <p class="p-26">Sicily Grey 30×60</p>
+                                <i class="p-12-g"><s>449.99 SAR</s></i>
+                                <i class="p-18">312.49 SAR</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+    <footer class="container-footer">
+        <div class="footer-info">
+            <div>
+                <picture class="footer-logo">
+                    <source srcset="./img/logo-footer-mbl.svg" media="(max-width: 1200px)">
+                    <img src="./img/logo-footer-dsk.svg" alt="logo">
+                </picture>
+            </div>
+             
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Stand Stone</a></li>
+                    <li><a href="">Stone</a></li>
+                    <li><a href="">Cement</a></li>
+                    <li><a href="">Soft Stone</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-info-list">
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Measurement Service</a></li>
+                    <li><a href="">Product Advice</a></li>
+                    <li><a href="">Interior Design</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact information</h2>
+                <p>
+                    3181 Al Imam Saud Ibn Abdul Aziz Branch Rd, An Nuzhah, Riyadh 12474, 
+                    Saudi Arabia
+                </p>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="products-list">
+
+                    <label for="products-list">
+                        <p>Products</p> 
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Stand Stone</div>
+                        <div>Stone</div>
+                        <div>Cement</div>
+                        <div>Soft Stone</div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="services-list">
+
+                    <label for="services-list">
+                        <p>Services</p> 
+                        <picture>
+                            <img src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>Measurement Service</div>
+                        <div>Product Advice</div>
+                        <div>Interior</div>
+                        <div>Design</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-dropdown">
+
+                <div class="dropdown-category">
+
+                    <input type="checkbox" id="contact-list">
+
+                    <label for="contact-list">
+                        <p>Contact information</p> 
+                        <picture>
+                            <img class="dropdown-products-arrow" src="./img/dropdown.svg" alt="dropdown">
+                        </picture>
+                    </label>
+
+                    <div class="dropdown-list">
+                        <div>3181 Aziz Branch Rd,</div>
+                        <div>An Nuzhah,</div>
+                        <div>Riyadh 12474,</div>
+                        <div>Saudi Arabi</div>
+                    </div>
+
+                </div>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="social-network">
+            <a href="#">
+                <picture>
+                    <source srcset="./img/fb-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/fb-icon-dsk.svg" alt="facebook">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/tw-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/tw-icon-dsk.svg" alt="twitter">
+                </picture>
+            </a>
+            <a href="#">
+                <picture>
+                    <source srcset="./img/inst-icon-mbl.svg" media="(max-width: 768px)">
+                    <img src="./img/inst-icon-dsk.svg" alt="instagram">
+                </picture>
+            </a>
+        </div>
+        <div class="copyright">
+            <p class="p-9-w">Copyright © 2022 | All Rights Reserved.</p>
+            <p class="p-9-w">Created with love by <b>thecreation.design</b></p>
+        </div>
+    </footer>
+
+</body>
+</html>

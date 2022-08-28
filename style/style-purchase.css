@@ -1,0 +1,1431 @@
+@import url("http://fonts.cdnfonts.com/css/proxima-nova-2");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Proxima Nova";
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  font-weight: bold;
+  src: url("../fonts/Proxima Nova Alt Bold.otf"), url("../fonts/Proxima Nova Alt Light.otf"), url("../fonts/Proxima Nova Alt Thin.otf"), url("../fonts/ProximaNova-Regular.otf"), url("../fonts/Proxima Nova Black.otf"), url("../fonts/Proxima Nova Bold.otf") format("opentype");
+}
+.p-9-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 9px;
+  color: #CACACA;
+}
+
+.p-12-g {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #CACACA;
+}
+
+.p-15-b {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  color: #0A0A0A;
+}
+
+.p-15-g {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #A7A7A7;
+}
+
+.p-16 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0A0A0A;
+}
+@media screen and (min-width: 1200px) {
+  .p-16 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A0A0A;
+  }
+}
+
+.p-16-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.p-18 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #111010;
+}
+
+.p-18-28 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #111010;
+}
+
+.p-20 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #616161;
+}
+
+.p-20-b {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151515;
+}
+
+.p-25 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #111010;
+}
+
+.p-26 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #111010;
+}
+
+.p-28-w {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.p-30 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #151515;
+}
+
+.p-20-15 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #616161;
+}
+@media screen and (min-width: 768px) {
+  .p-20-15 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #616161;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-20-15 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #616161;
+  }
+}
+
+.p-20-18 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ECECEC;
+}
+@media screen and (min-width: 768px) {
+  .p-20-18 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ECECEC;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-20-18 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ECECEC;
+  }
+}
+
+.h2-white {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .h2-white {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-white {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+}
+
+.h2-black {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-black {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-black {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+
+.h2-40-24 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-40-24 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-40-24 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111010;
+  }
+}
+
+.h2-48-30 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #111010;
+}
+@media screen and (min-width: 768px) {
+  .h2-48-30 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #111010;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .h2-48-30 {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+  }
+}
+
+.btn {
+  background: #111010;
+  border: none;
+  width: 180px;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .btn {
+    width: 180px;
+    height: 52px;
+  }
+}
+.btn:hover {
+  filter: invert(100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px #ffffff;
+}
+.btn a {
+  text-decoration: none;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 1200px) {
+  .btn a {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
+.container-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 17px;
+}
+@media screen and (min-width: 1200px) {
+  .container-header {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-header {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 45px;
+  }
+}
+.container-tabs {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .container-tabs {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-tabs {
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-purchase {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .container-purchase {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-purchase {
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+.container-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .container-footer {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container-footer {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 68px;
+    padding-bottom: 27px;
+  }
+}
+
+.header-logo {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.header-logo-mbl {
+  display: block;
+}
+@media screen and (min-width: 1200px) {
+  .header-logo-mbl {
+    display: none;
+  }
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: left;
+}
+
+.header-pages {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header-pages {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+}
+.header-pages a {
+  text-decoration: none;
+  font-family: "Proxima Nova", sans-serif;
+}
+.header-pages a:first-child {
+  color: grey;
+}
+.header-pages a:hover {
+  color: rgb(178, 177, 177);
+}
+
+.header-cart {
+  display: flex;
+  gap: 24px;
+}
+@media screen and (max-width: 1200px) {
+  .header-cart a:nth-child(2), .header-cart a:nth-child(3) {
+    display: none;
+  }
+}
+
+.block1-tabs-bg {
+  background: linear-gradient(180deg, #fbf9f9 0%, rgba(255, 255, 255, 0.992) 100%);
+}
+
+.block1-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: left;
+  padding-top: 41px;
+  padding-bottom: 35px;
+  opacity: 1;
+}
+.block1-tabs a:first-child {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+}
+.block1-tabs a:last-child::before {
+  content: url("../img/arrow-p4.svg");
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.block1-tabs a {
+  opacity: 1;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: black;
+}
+@media screen and (min-width: 768px) {
+  .block1-tabs a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+  }
+}
+
+.purchase-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .purchase-flex {
+    flex-direction: row;
+  }
+}
+
+.purchase-bg {
+  background: #FAFAFA;
+}
+
+.block2-purchase-bg {
+  background: #FAFAFA;
+}
+
+.block2-shipping {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .block2-shipping {
+    max-width: 420px;
+    max-height: 1020px;
+    padding-left: 28px;
+    padding-right: 31px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+}
+
+.block2-shipping-address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.block2-shipping-address button {
+  width: 72px;
+  height: 45px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+@media screen and (min-width: 1200px) {
+  .block2-shipping-address button {
+    width: 72px;
+    height: 45px;
+  }
+}
+.block2-shipping-address button:nth-child(1) {
+  color: #FFFFFF;
+}
+.block2-shipping-address button:nth-child(2) {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  color: black;
+}
+.block2-shipping-address form input {
+  width: 100%;
+}
+.block2-shipping-address input {
+  background: #FFFFFF;
+  border: 1px solid rgba(130, 130, 130, 0.4);
+  height: 45px;
+}
+.block2-shipping-address input::-moz-placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+.block2-shipping-address input:-ms-input-placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+.block2-shipping-address input::placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+.block2-shipping-address select {
+  background: #FFFFFF;
+  border: 1px solid rgba(130, 130, 130, 0.4);
+  color: rgba(130, 130, 130, 0.85);
+  font-size: 15px;
+  height: 45px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  overflow: hidden;
+  width: 50%;
+  padding-left: 18px;
+  background: url("../img/select-arrow-p5.png") no-repeat right, #FFFFFF;
+}
+@media screen and (min-width: 1200px) {
+  .block2-shipping-address select {
+    width: 100%;
+  }
+}
+
+.shipping-name input {
+  width: 100%;
+}
+.shipping-name input:first-child {
+  margin-bottom: 20px;
+}
+
+.shipping-street {
+  display: flex;
+  gap: 7px;
+}
+.shipping-street input:first-child {
+  width: 100%;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .shipping-street input:first-child {
+    max-width: 239px;
+    width: 100%;
+    height: 45px;
+  }
+}
+.shipping-street input:last-child {
+  width: 100%;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .shipping-street input:last-child {
+    max-width: 116px;
+    width: 100%;
+    height: 45px;
+  }
+}
+
+.shipping-postcode {
+  display: flex;
+  gap: 7px;
+}
+.shipping-postcode input:first-child {
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+}
+@media screen and (min-width: 1200px) {
+  .shipping-postcode input:first-child {
+    max-width: 158px;
+    width: 100%;
+    height: 45px;
+  }
+}
+.shipping-postcode input:last-child {
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+}
+@media screen and (min-width: 1200px) {
+  .shipping-postcode input:last-child {
+    max-width: 195px;
+    width: 100%;
+    height: 45px;
+  }
+}
+
+.checkbox-style {
+  display: flex;
+  gap: 12px;
+}
+.checkbox-style input {
+  content: url("../img/unckecked-tick.svg");
+}
+.checkbox-style input:hover {
+  cursor: pointer;
+}
+.checkbox-style input:checked {
+  content: url("../img/ckecked-tick.svg");
+}
+.checkbox-style label {
+  max-width: 293px;
+}
+.checkbox-style label p {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.block2-notification-req {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+  margin-top: 6px;
+}
+
+.block2-notification-pass {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #828282;
+}
+.block2-notification-pass::before {
+  content: url("../img/i-icon.svg");
+  vertical-align: middle;
+  margin-left: 32px;
+  margin-right: 5px;
+}
+
+.payment-style {
+  display: flex;
+  justify-content: space-between;
+  background: #FAFAFA;
+  max-height: 84px;
+  width: 100%;
+  align-items: center;
+}
+.payment-style div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.payment-style div a {
+  width: 62px;
+  height: 40px;
+}
+.payment-style div a:hover {
+  filter: invert(10%);
+  box-shadow: 1px 1px 10px 1px rgb(121, 120, 120);
+  cursor: pointer;
+}
+.payment-style form input {
+  content: url("../img/checkbox-uncheked.svg");
+  width: 19px;
+  height: 19px;
+}
+.payment-style form input:hover {
+  cursor: pointer;
+}
+.payment-style form input:checked {
+  content: url("../img/checkbox-cheked.svg");
+  width: 19px;
+  height: 19px;
+}
+
+.payment-style-paypal {
+  margin-bottom: 10px;
+  padding: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .payment-style-paypal {
+    width: 424px;
+    height: 100%;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .payment-style-bank {
+    height: 100%;
+    padding-bottom: 21px;
+  }
+}
+
+.payment-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .payment-card {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    max-width: 424px;
+  }
+}
+.payment-card form input[type=text], .payment-card form [type=password], .payment-card form [type=number] {
+  background: #FFFFFF;
+  border: 1px solid rgba(130, 130, 130, 0.4);
+  height: 45px;
+  width: 100%;
+}
+.payment-card form input[type=text]::-moz-placeholder, .payment-card form [type=password]::-moz-placeholder, .payment-card form [type=number]::-moz-placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+.payment-card form input[type=text]:-ms-input-placeholder, .payment-card form [type=password]:-ms-input-placeholder, .payment-card form [type=number]:-ms-input-placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+.payment-card form input[type=text]::placeholder, .payment-card form [type=password]::placeholder, .payment-card form [type=number]::placeholder {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  padding-left: 18px;
+}
+
+.payment-card-expiry {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-card-expiry input:first-child {
+  width: 100%;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .payment-card-expiry input:first-child {
+    max-width: 158px;
+    width: 100%;
+    height: 45px;
+  }
+}
+.payment-card-expiry input:last-child {
+  width: 100%;
+  height: 45px;
+}
+@media screen and (min-width: 1200px) {
+  .payment-card-expiry input:last-child {
+    max-width: 208px;
+    width: 100%;
+    height: 45px;
+  }
+}
+
+.grid-cart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #FAFAFA;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 747px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .grid-cart {
+    padding-left: 31px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .grid-cart {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 747px;
+  }
+}
+.grid-cart div {
+  align-self: center;
+  text-align: center;
+}
+
+.cart-subblock1-header {
+  grid-area: 1/1/2/2;
+}
+
+.cart-subblock2-header {
+  grid-area: 1/2/2/3;
+}
+
+.cart-subblock3-item {
+  grid-area: 2/1/3/2;
+}
+
+.cart-subblock4-price {
+  grid-area: 2/2/3/3;
+}
+
+.cart-subblock5-item {
+  grid-area: 3/1/4/2;
+}
+
+.cart-subblock6-price {
+  grid-area: 3/2/4/3;
+}
+
+.cart-subblock7-item {
+  grid-area: 4/1/5/2;
+}
+
+.cart-subblock8-price {
+  grid-area: 4/2/5/3;
+}
+
+.cart-subblock9-voucher {
+  grid-area: 5/1/6/3;
+}
+
+.cart-subblock10-btn {
+  grid-area: 6/1/7/2;
+}
+
+.cart-subblock11-btn {
+  grid-area: 6/2/7/3;
+}
+
+.cart-subblock12-subtotal {
+  grid-area: 7/1/8/2;
+}
+
+.cart-subblock13-number {
+  grid-area: 7/2/8/3;
+}
+
+.cart-subblock14-shippment {
+  grid-area: 8/1/9/2;
+}
+
+.cart-subblock15-value {
+  grid-area: 8/2/9/3;
+}
+
+.cart-subblock16-delivery {
+  grid-area: 9/1/10/3;
+}
+
+.cart-subblock2-header p, .cart-subblock4-price p, .cart-subblock6-price p,
+.cart-subblock8-price p, .cart-subblock13-number p, .cart-subblock15-value p {
+  text-align: right;
+}
+
+.cart-subblock1-header p, .cart-subblock12-subtotal p, .cart-subblock14-shippment p {
+  text-align: left;
+}
+
+.cart-subblock1-header p, .cart-subblock2-header p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.cart-subblock3-item, .cart-subblock5-item, .cart-subblock7-item {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cart-subblock3-item div p, .cart-subblock5-item div p, .cart-subblock7-item div p {
+  margin: 0;
+  text-align: left;
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16;
+  line-height: 145%;
+}
+.cart-subblock3-item div p:nth-child(3), .cart-subblock5-item div p:nth-child(3), .cart-subblock7-item div p:nth-child(3) {
+  font-weight: 700;
+}
+.cart-subblock3-item div p:nth-child(2), .cart-subblock3-item div p:nth-child(4), .cart-subblock5-item div p:nth-child(2), .cart-subblock5-item div p:nth-child(4), .cart-subblock7-item div p:nth-child(2), .cart-subblock7-item div p:nth-child(4) {
+  color: #a0a0a0;
+}
+
+.cart-subblock4-price p, .cart-subblock6-price p, .cart-subblock8-price p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.cart-subblock12-subtotal p, .cart-subblock14-shippment p {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.cart-subblock13-number p, .cart-subblock15-value p {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.cart-subblock15-value p, .cart-subblock14-shippment p {
+  color: rgba(130, 130, 130, 0.85);
+}
+
+.cart-subblock16-delivery p {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgba(130, 130, 130, 0.85);
+  text-align: left;
+}
+
+.cart-subblock9-voucher {
+  margin-bottom: 10px;
+}
+.cart-subblock9-voucher p:first-child {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+}
+.cart-subblock9-voucher p:last-child {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+}
+
+.cart-subblock9-voucher {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-subblock10-btn form {
+  margin-right: auto;
+  width: 100%;
+}
+.cart-subblock10-btn form input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid rgba(130, 130, 130, 0.85);
+}
+.cart-subblock10-btn form input::-moz-placeholder {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+  text-align: center;
+}
+.cart-subblock10-btn form input:-ms-input-placeholder {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+  text-align: center;
+}
+.cart-subblock10-btn form input::placeholder {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(130, 130, 130, 0.85);
+  text-align: center;
+}
+
+.cart-subblock11-btn {
+  margin-left: auto;
+  width: 100%;
+}
+.cart-subblock11-btn button {
+  width: 120px;
+  height: 45px;
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .cart-subblock11-btn button {
+    width: 170px;
+    height: 45px;
+  }
+}
+.cart-subblock11-btn button a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.block4-checkout {
+  padding-left: 25px;
+  padding-right: 37px;
+  padding-top: 20px;
+  padding-bottom: 17px;
+}
+.block4-checkout button {
+  width: 100%;
+}
+.block4-checkout button a {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.checkout-checkbox {
+  display: flex;
+  gap: 12px;
+}
+.checkout-checkbox input {
+  content: url("../img/unckecked-tick.svg");
+}
+.checkout-checkbox input:hover {
+  cursor: pointer;
+}
+.checkout-checkbox input:checked {
+  content: url("../img/ckecked-tick.svg");
+}
+.checkout-checkbox label {
+  max-width: 354px;
+}
+.checkout-checkbox label p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  margin-bottom: 25px;
+}
+
+.block4-checkout-total {
+  display: flex;
+  justify-content: space-between;
+}
+.block4-checkout-total b {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: right;
+  color: #000000;
+}
+.block4-checkout-total p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(130, 130, 130, 0.85);
+  margin: 0;
+  margin-top: 7px;
+}
+
+.checkout-total-price p {
+  text-align: right;
+}
+
+footer {
+  background-color: #111010;
+  border-radius: 0 0 45px 45px;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 108px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    border-radius: 0 0 24px 24px;
+    margin-top: 108px;
+  }
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer-info {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+.footer-info-list {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer-info-list {
+    display: block;
+  }
+}
+.footer-info-list ul {
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+.footer-info-list ul li a {
+  text-decoration: none;
+  color: white;
+  line-height: 170%;
+  font-family: "Poppins", sans-serif;
+}
+.footer-info-list ul li a:hover {
+  color: grey;
+}
+.footer-info-list ul li:first-child {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-contact {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer-contact {
+    display: block;
+    color: white;
+    width: 280px;
+  }
+}
+.footer-contact h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.footer-contact p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  margin: 0;
+}
+
+.social-network {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 19px;
+}
+@media screen and (min-width: 768px) {
+  .social-network {
+    justify-content: left;
+    margin-bottom: 50px;
+  }
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .copyright {
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 1;
+  }
+}
+.copyright p {
+  color: white;
+  margin: 0;
+}
+
+.footer-dropdown {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .footer-dropdown {
+    display: none;
+  }
+}
+.footer-dropdown span {
+  display: block;
+  width: 100%;
+  position: initial;
+  margin: 0 auto;
+  margin-bottom: 34px;
+  border-bottom: 1px solid white;
+}
+
+.dropdown-category {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-category label {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.dropdown-category label p {
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+.dropdown-category input {
+  display: none;
+}
+
+.dropdown-category input:checked ~ .dropdown-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #4f4f4f;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  position: initial;
+}
+.dropdown-category input:checked ~ label picture {
+  transform: rotateZ(-180deg);
+  transition: all 0.3s;
+}
+
+.dropdown-list {
+  display: none;
+  top: 100%;
+}/*# sourceMappingURL=style-purchase.css.map */
